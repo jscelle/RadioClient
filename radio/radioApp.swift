@@ -11,7 +11,9 @@ import SwiftUI
 struct radioApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                AuthView(authViewModel: AuthViewModel())
+            }
         }
     }
 }

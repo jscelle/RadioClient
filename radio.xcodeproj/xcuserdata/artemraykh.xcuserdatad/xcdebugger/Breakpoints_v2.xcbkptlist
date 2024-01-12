@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FDED93AA-8703-4AB2-81CD-15A52E73617F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10AD6237-964A-4F14-A701-160A125177BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "radio/Scenes/Cart/CartView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "topItem"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "181E87FE-5FD2-4354-8C71-0C5B9DA4CAEC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "radio/Scenes/Cart/CartViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "makePurchase()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "181E87FE-5FD2-4354-8C71-0C5B9DA4CAEC - 70ad9ad5062588f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for radio.CartViewModel.makePurchase() async -&gt; ()"
+                  moduleName = "radio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemraykh/Documents/radio/radio/Scenes/Cart/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  uuid = "181E87FE-5FD2-4354-8C71-0C5B9DA4CAEC - be8f6ccac8045cf7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for radio.CartViewModel.makePurchase() async -&gt; ()"
+                  moduleName = "radio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemraykh/Documents/radio/radio/Scenes/Cart/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "181E87FE-5FD2-4354-8C71-0C5B9DA4CAEC - 84eec6f88a66e0f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for radio.CartViewModel.makePurchase() async -&gt; ()"
+                  moduleName = "radio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemraykh/Documents/radio/radio/Scenes/Cart/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "181E87FE-5FD2-4354-8C71-0C5B9DA4CAEC - 570a8431f08deceb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(8) suspend resume partial function for radio.CartViewModel.makePurchase() async -&gt; ()"
+                  moduleName = "radio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemraykh/Documents/radio/radio/Scenes/Cart/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1832">
+               </Location>
+               <Location
+                  uuid = "181E87FE-5FD2-4354-8C71-0C5B9DA4CAEC - f7b0dd897b77afec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (radio.Item) -&gt; (Swift.String, Swift.Int) in radio.CartViewModel.makePurchase() async -&gt; ()"
+                  moduleName = "radio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemraykh/Documents/radio/radio/Scenes/Cart/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
