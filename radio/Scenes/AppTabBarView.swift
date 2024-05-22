@@ -22,6 +22,11 @@ struct AppTabView: View {
                     Label("Cart", systemImage: "cart")
                 }
                 .badge(cartManager.items.count)
+            
+            MapView(cartManager: cartManager)
+                .tabItem {
+                    Label("Map", systemImage: "map")
+                }
         }
     }
 }

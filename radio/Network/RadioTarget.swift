@@ -114,28 +114,77 @@ extension RadioTarget {
     }
     
     static func makePurchase(name: String, itemId: String, count: Int) -> RadioTarget {
-            RadioTarget(
-                url: Config.baseURL,
-                path: "/purchase",
-                method: .post,
-                task: .withParameters(
-                    parameters: [
-                        "name": name,
-                        "itemId": itemId,
-                        "count": count
-                    ],
-                    encoding: JSONEncoding.default
-                )
+        RadioTarget(
+            url: Config.baseURL,
+            path: "/purchase",
+            method: .post,
+            task: .withParameters(
+                parameters: [
+                    "name": name,
+                    "itemId": itemId,
+                    "count": count
+                ],
+                encoding: JSONEncoding.default
             )
-        }
-
-        static func getPurchaseHistory(username: String) -> RadioTarget {
-            RadioTarget(
-                url: Config.baseURL,
-                path: "/purchases/\(username)",
-                method: .get,
-                task: .plain
+        )
+    }
+    
+    static func getPurchaseHistory(username: String) -> RadioTarget {
+        RadioTarget(
+            url: Config.baseURL,
+            path: "/purchases/\(username)",
+            method: .get,
+            task: .plain
+        )
+    }
+    
+    static func fetchStores() -> RadioTarget {
+        .init(
+            url: Config.baseURL,
+            path: "/stores",
+            method: .get,
+            task: .plain
+        )
+    }
+    
+    static func addStore(store: Store) -> RadioTarget {
+        .init(
+            url: Config.baseURL,
+            path: "/stores",
+            method: .post,
+            task: .withParameters(
+                parameters: [
+                    "name": store.name,
+                    "latitude": store.latitude,
+                    "longitude": store.longitude
+                ],
+                encoding: JSONEncoding.default
             )
-        }
+        )
+    }
+    
+    static func addUserToStore(storeId: String, userId: String) -> RadioTarget {
+        .init(
+            url: Config.baseURL,
+            path: "/stores/\(storeId)/addUser",
+            method: .post,
+            task: .withParameters(
+                parameters: [
+                    "userId": userId,
+                    "storeId": storeId
+                ],
+                encoding: JSONEncoding.default
+            )
+        )
+    }
+    
+    static func getCollections(storeId: String) -> RadioTarget {
+        .init(
+            url: Config.baseURL,
+            path: "/stores/\(storeId)/collections",
+            method: .post,
+            task: .plain
+        )
+    }
 }
 

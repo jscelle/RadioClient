@@ -11,6 +11,9 @@
 		A42D99542B4AB37E0099FC59 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D99532B4AB37D0099FC59 /* CartManager.swift */; };
 		A42D99562B4AC2A90099FC59 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D99552B4AC2A90099FC59 /* CartView.swift */; };
 		A42D99582B4AC3F00099FC59 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D99572B4AC3F00099FC59 /* AppTabBarView.swift */; };
+		A478AFDB2BF9FF8E00C1FF4E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A478AFDA2BF9FF8E00C1FF4E /* MapView.swift */; };
+		A478AFDD2BFA002B00C1FF4E /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = A478AFDC2BFA002B00C1FF4E /* Store.swift */; };
+		A478AFDF2BFA003700C1FF4E /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A478AFDE2BFA003700C1FF4E /* MapViewModel.swift */; };
 		A4BA4A742B507B4900541C06 /* PurchaseHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BA4A732B507B4900541C06 /* PurchaseHistoryViewModel.swift */; };
 		A4BA4A762B507B8F00541C06 /* PurchaseHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BA4A752B507B8F00541C06 /* PurchaseHistoryView.swift */; };
 		A4DE04382B4EE11300C1B129 /* CatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE04372B4EE11300C1B129 /* CatalogViewModel.swift */; };
@@ -69,6 +72,9 @@
 		A42D99532B4AB37D0099FC59 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
 		A42D99552B4AC2A90099FC59 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		A42D99572B4AC3F00099FC59 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
+		A478AFDA2BF9FF8E00C1FF4E /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A478AFDC2BFA002B00C1FF4E /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		A478AFDE2BFA003700C1FF4E /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		A4BA4A732B507B4900541C06 /* PurchaseHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseHistoryViewModel.swift; sourceTree = "<group>"; };
 		A4BA4A752B507B8F00541C06 /* PurchaseHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseHistoryView.swift; sourceTree = "<group>"; };
 		A4DE04372B4EE11300C1B129 /* CatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewModel.swift; sourceTree = "<group>"; };
@@ -134,6 +140,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A478AFD92BF9FF4E00C1FF4E /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				A478AFDA2BF9FF8E00C1FF4E /* MapView.swift */,
+				A478AFDC2BFA002B00C1FF4E /* Store.swift */,
+				A478AFDE2BFA003700C1FF4E /* MapViewModel.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		A4BA4A722B507B3700541C06 /* PurchaseHistory */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +288,7 @@
 		A4F743412B21B8D50061E8C0 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				A478AFD92BF9FF4E00C1FF4E /* Map */,
 				A4C107352B230C3200DF2FF9 /* Cart */,
 				A4C107342B230C2D00DF2FF9 /* Profile */,
 				A4C107332B230C2500DF2FF9 /* Collections */,
@@ -429,6 +446,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A478AFDF2BFA003700C1FF4E /* MapViewModel.swift in Sources */,
 				A42D99562B4AC2A90099FC59 /* CartView.swift in Sources */,
 				A4DE043A2B4EE2D000C1B129 /* AuthManager.swift in Sources */,
 				A4BA4A762B507B8F00541C06 /* PurchaseHistoryView.swift in Sources */,
@@ -443,6 +461,8 @@
 				A4F7432B2B20B3290061E8C0 /* RadioTarget.swift in Sources */,
 				A4F743272B20B3290061E8C0 /* Encoding.swift in Sources */,
 				A4F743482B21BD920061E8C0 /* AuthView.swift in Sources */,
+				A478AFDB2BF9FF8E00C1FF4E /* MapView.swift in Sources */,
+				A478AFDD2BFA002B00C1FF4E /* Store.swift in Sources */,
 				A4DE043C2B4EFA4500C1B129 /* CatalogItem.swift in Sources */,
 				A4F743282B20B3290061E8C0 /* Target.swift in Sources */,
 				A4F7433A2B20B5780061E8C0 /* JSONSerializer.swift in Sources */,
